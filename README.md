@@ -12,7 +12,7 @@
 > ### Q:为什么要使用Puppteer，我用html/canvas也可以实现呀
 A: 这个插件的最大好处就是不受端的限制，笔者在小程序和RN都碰到了这种情况，尤其是这种 对dom元素限制比较严格的框架，通过引入`node`层来生成图片是一种比较优雅的解决方案
 。
-
+***
 ### 目录结构：
   - index.html
     - Puppteer需要打开一个浏览器地址，然后截图。我们要创建一个html 在html里自定义。就可以基于这个html截图了
@@ -52,4 +52,4 @@ A: 这个插件的最大好处就是不受端的限制，笔者在小程序和RN
     })
   ```
 
-[末尾附中文文档](https://zhaoqize.github.io/puppeteer-api-zh_CN)
+## [末尾附中文文档](https://zhaoqize.github.io/puppeteer-api-zh_CN)
