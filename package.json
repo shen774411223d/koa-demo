@@ -1,0 +1,24 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^9.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.13.1"
+  }
+}

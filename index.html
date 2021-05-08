@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+
+      .main-content {
+        width: 100%;
+        display: flex;
+      }
+
+      .main {
+        width: 450px;
+        background: #0052ff;
+        position: relative;
+        padding-top: 53px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .main-bg {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 211px;
+        height: 96px;
+      }
+
+      .job-view {
+        width: 412px;
+        background: #ffffff;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 120px;
+        border-bottom-right-radius: 14px;
+        border-bottom-left-radius: 14px;
+        padding-top: 30px;
+        padding-bottom: 24px;
+      }
+
+      .jobs {
+        padding: 0 24px;
+      }
+
+      .job-logo {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .job-logo img {
+        width: 67px;
+        height: 67px;
+        border-radius: 14px;
+      }
+
+      .job-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 16px;
+      }
+
+      .job-position {
+        font-weight: 500;
+        font-size: 22px;
+        color: #15161f;
+      }
+
+      .job-salary {
+        font-weight: bold;
+        color: #0052ff;
+        font-size: 20px;
+      }
+
+      .job-intro {
+        font-size: 14px;
+        color: #6e727a;
+      }
+
+      .bottom-logo {
+        width: 180px;
+        height: 18px;
+        margin: 18px 0;
+      }
+
+      .content {
+        height: 400px;
+      }
+
+      .job-desc {
+        color: #333333;
+        font-size: 18px;
+        font-weight: 900;
+        padding-top: 38px;
+        padding-bottom: 18px;
+      }
+
+      .desc-content {
+        color: #666666;
+        font-size: 16px;
+        height: 264px;
+        overflow: hidden;
+      }
+
+      .job-addtional {
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .job-addtional-text {
+        color: #0052ff;
+        font-size: 16px;
+      }
+
+      .job-addtional-arrow {
+        margin-top: 7px;
+        width: 14px;
+        height: 16px;
+      }
+
+      .diliver-line {
+        width: 100%;
+        height: 20px;
+      }
+
+      .jobs-view {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+
+      .user-view {
+        display: flex;
+        flex-direction: row;
+        margin-top: 23px;
+        justify-content: space-between;
+      }
+
+      .avatar-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .user-avatar {
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        margin-right: 14px;
+      }
+
+      .user-name {
+        color: #15161f;
+        font-size: 19px;
+        font-weight: 500;
+      }
+
+      .user-intro {
+        color: #6e727a;
+        font-size: 14px;
+      }
+
+      .qr-press {
+        width: 182px;
+        height: 24px;
+        margin-top: 14px;
+      }
+
+      .qrcode-img {
+        width: 92px;
+        height: 92px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="main">
+        <img
+          class="main-bg"
+          src="https://i9.taou.com/maimai/p/27770/8022_6_71DkwarCaCiAIVrK"
+        />
+        <div class="job-view">
+          <div class="jobs">
+            <div class="job-logo">
+              <img
+                class="clogo"
+                src=""
+              />
+              <div class="job-content">
+                <span class="job-position">position</span>
+                <span class="job-salary">salary_str</span>
+                <span class="job-intro">province</span>
+              </div>
+            </div>
+            <div class="job-desc">职位描述</div>
+            <div class="desc-content"></div>
+            <div class="job-addtional">
+              <span class="job-addtional-text">扫码查看更多职位详情</span>
+              <img
+                class="job-addtional-arrow"
+                src="https://i9.taou.com/maimai/p/27772/5852_6_71ZQhsBB1pWm3BxC"
+              />
+            </div>
+          </div>
+          <img
+            class="diliver-line"
+            src="https://i9.taou.com/maimai/p/27779/7367_6_31tYDXTpS54HVsJ0"
+          />
+          <div class="jobs-view">
+            <div>
+              <div class="user-view">
+                <div>
+                  <div class="avatar-content">
+                    <img class="user-avatar" />
+                    <div>
+                      <div class="user-name">name</div>
+                      <div class="user-intro">company·position</div>
+                    </div>
+                  </div>
+                  <img
+                    class="qr-press"
+                    src="https://i9.taou.com/maimai/p/27779/7368_6_42pkkAFzQDWIkXXa"
+                  />
+                </div>
+                <img class="qrcode-img" src="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="bottom-logo"
+          src="https://i9.taou.com/maimai/p/27772/2207_6_2JUh7UGBfOAdZm"
+        />
+      </div>
+    </div>
+  </body>
+
+  <script>
+    function formatSearch(se) {
+      if (typeof se !== 'undefined') {
+        se = se.substr(1);
+        var arr = se.split('&'),
+          obj = {},
+          newarr = [];
+        for(var i = 0; i < arr.length; i++) {
+          newarr = arr[i].split('=');
+          if (typeof obj[newarr[0]] === 'undefined') {
+            obj[newarr[0]] = newarr[1];
+          }
+        }
+        return obj;
+      }
+    }
+
+    function renderDesc(desc) {
+      console.log(desc)
+      document.querySelector('.desc-content').innerHTML = desc.replace(/\n/g, '<br />');
+    }
+
+    function qrCode(ejid, fr) {
+      return `http://10.6.1.109:3009/sdk/jobs/get_qrcode?url=https://maimai.cn/jobs/job_detail?ejid=${ejid}&fr=${fr}&origin_share=ok`
+    }
+
+    var search = formatSearch(window.location.search)
+    renderDesc(decodeURI(search.description))
+    document.querySelector('.job-position').innerHTML = decodeURI(search.position)
+    document.querySelector('.clogo').setAttribute('src', decodeURI(search.clogo))
+    document.querySelector('.job-salary').innerHTML = decodeURI(search.salary_str)
+    document.querySelector('.job-intro').innerHTML = decodeURI(search.province)
+    document.querySelector('.user-name').innerHTML = decodeURI(search.name)
+    document.querySelector('.user-avatar').setAttribute('src', decodeURI(search.avatar))
+    document.querySelector('.user-intro').innerHTML = `${decodeURI(search.company)} · ${decodeURI(search.userPosition)}`
+    document.querySelector('.qrcode-img').setAttribute('src', qrCode(search.ejid, search.fr))
+  </script>
+</html>
