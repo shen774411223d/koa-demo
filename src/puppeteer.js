@@ -48,6 +48,13 @@ router.get('/job-view-to-img', async (ctx, next) => {
   await next()
 })
 
+
+router.get('/main', async (ctx, next) => {
+  // const Main = fs.readFileSync('./main.html', 'utf-8')
+  ctx.body = '12333'
+  await next()
+})
+
 app.use(router.routes())
 
 app.listen(3031, () => {

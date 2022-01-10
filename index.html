@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  
+  </head>
+  <body>
+    try catch
+    <script>
+      try {
+        function fn() { 
+          try {
+            console.log(1);
+          } catch (e) {
+            throw Erorr('error!');
+          } finally {
+            console.log(2);
+            // throw Erorr('error!');
+          }
+        }
+        fn();
+      } catch (e) {
+        console.log(e, 'catch e');
+      }
+    </script>j
+  </body>
+</html>

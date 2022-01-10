@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:watch": "nodemon server.js"
+    "start:watch": "nodemon main.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,11 +14,14 @@
     "form-data": "^4.0.0",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
     "node-fetch": "^2.6.1",
     "nodemon": "^2.0.7",
     "puppeteer": "^9.0.0"
   },
   "dependencies": {
-    "koa": "^2.13.1"
+    "koa": "^2.13.1",
+    "qs": "^6.10.1",
+    "ramda": "^0.27.1"
   }
 }

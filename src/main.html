@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./main.css" />
+</head>
+<body>
+  <div class="main">
+    color red!
+    <button>tap me </button>
+    
+    <script>
+      window.addEventListener('hashchange', (e) => {
+        console.log(e, 'hash e')
+      })
+      window.addEventListener('popstate', (e) => {
+        console.log(e, 'history e')
+      })
+
+      document.querySelector('button').onclick = function() {
+        window.history.pushState({page: 1}, 'userTitle1', '?page=1')
+        window.history.pushState({page: 2}, 'userTitle2', '?page=2')
+        window.history.pushState({page: 3}, 'userTitle3', '?page=3')
+      }
+    </script>
+  </div>
+</body>
+</html>
